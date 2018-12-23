@@ -61,9 +61,9 @@ The following example creates a game and illustrates the basic API.  You can run
 
 The `tournament.py` script is used to evaluate the effectiveness of  custom heuristics.  The script measures relative performance of my agent (named "Student" in the tournament) in a round-robin tournament against several other pre-defined agents.  The Student agent uses time-limited Iterative Deepening along with your custom heuristics.
 
-The performance of time-limited iterative deepening search is hardware dependent (faster hardware is expected to search deeper than slower hardware in the same amount of time).  The script controls for these effects by also measuring the baseline performance of an agent called "ID_Improved" that uses Iterative Deepening and the improved_score heuristic defined in `sample_players.py`.  Your goal is to develop a heuristic such that Student outperforms ID_Improved. (NOTE: This can be _very_ challenging!)
+The performance of time-limited iterative deepening search is hardware dependent (faster hardware is expected to search deeper than slower hardware in the same amount of time).  The script controls for these effects by also measuring the baseline performance of an agent called "ID_Improved" that uses Iterative Deepening and the improved_score heuristic defined in `player_submission.py`.  Your goal is to develop a heuristic such that Student outperforms ID_Improved. (NOTE: This can be _very_ challenging!)
 
-The tournament opponents are listed below. (See also: sample heuristics and players defined in sample_players.py)
+The tournament opponents are listed below. (See also: sample heuristics and players defined in player_submission.py)
 
 - Random: An agent that randomly chooses a move each turn.
 - MM_Open: MinimaxPlayer agent using the open_move_score heuristic with search depth 3
