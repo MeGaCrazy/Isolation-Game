@@ -16,7 +16,7 @@ Students only need to modify code in the `game_agent.py` file to complete the pr
 
 ### Quickstart Guide
 
-The following example creates a game and illustrates the basic API.  You can run this example by activating your aind anaconda environment and executing the command `python sample_players.py`
+The following example creates a game and illustrates the basic API.  You can run this example by a executing the command `python sample_players.py`
 
     from isolation import Board
 
